@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DataStore.BlockChain.TestApp": {
+      "commandName": "Project",
+      "commandLineArgs": "6000 Node1"
+    }
+  }
+}

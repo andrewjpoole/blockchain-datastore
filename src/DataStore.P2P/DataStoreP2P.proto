@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package DataStore.P2P;
+
+// Service definition.
+service P2PGrpc {
+  rpc Send (Request) returns (Reply) {}
+}
+
+message Request {
+  string from = 1;
+  string mode = 2;
+  string data = 3;
+}
+
+message Reply {
+  string from = 1;
+  string mode = 2;
+  string data = 3;
+}

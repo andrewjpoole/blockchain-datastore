@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DataStore.P2P.TestAppN3": {
+      "commandName": "Project",
+      "commandLineArgs": "6002"
+    }
+  }
+}
